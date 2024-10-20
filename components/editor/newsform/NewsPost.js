@@ -3,7 +3,7 @@
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { useCategory } from '@/context/category';
 import { useSubCategory } from '@/context/subcategory';
-import { TextareaAutosize } from '@mui/base';
+
 import React, { useEffect } from 'react';
 import {
   TextField, Button, MenuItem, FormControl,
