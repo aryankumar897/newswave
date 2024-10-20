@@ -1,0 +1,118 @@
+
+
+
+/* category buttons */
+/* Your global CSS file or style tag */
+
+.mega-menu {
+  display: flex;
+  margin-top: 0;
+  z-index: +999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.mega-menu-category {
+  margin-right: 20px;
+  position: relative;
+}
+
+.mega-menu-category-title {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.mega-menu-content {
+  position: absolute;
+  top: 100%;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: #fff;
+  padding: 10px;
+  border-top: none;
+  width: max-content; /* Make the width dynamic based on content */
+  z-index: 1000;
+  display: none;
+  text-align: center; /* Horizontally center */
+  box-shadow: -22px 23px 0px -19px rgb(234, 234, 234);
+  -webkit-box-shadow: -22px 23px 0px -19px rgba(245, 245, 245, 0.967);
+  -moz-box-shadow: -22px 23px 0px -19px rgb(252, 252, 252);
+}
+
+.mega-menu-category:hover .mega-menu-content {
+  display: block;
+}
+
+.mega-menu-section-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.mega-menu-subcategories {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.mega-menu-subcategory {
+  margin-bottom: 5px;
+}
+
+.mega-menu-blog-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+   cursor: pointer;
+}
+
+.mega-menu-blog-post {
+  margin-bottom: 10px;
+}
+
+.mega-menu-blog-post-title {
+  font-weight: bold;
+}
+
+.mega-menu-blog-post-content {
+  margin-top: 5px;
+  color: #666;
+}
+
+
+
+/* Adjust styles for newsletter posts */
+.mega-menu-newsletter-posts {
+  margin-left: 20px; /* Adjust spacing between subcategories and newsletter posts */
+}
+
+/* Make the flex container horizontal */
+.d-flex {
+  display: flex;
+}
+
+/* Adjust styles for subcategories */
+
+.mega-menu-newsletter-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+   cursor: pointer;
+}
+
+
+.mega-menu-newsletter-post {
+  margin-bottom: 10px;
+}
+
+.mega-menu-newsletter-post-title {
+  font-weight: bold;
+}
+
+.mega-menu-newsletter-post-content {
+  margin-top: 5px;
+  color: #666;
+}
+/* Define hover effect */
+.mega-menu-hover .mega-menu-subcategory:hover {
+  /* Add your hover styles here */
+ 
+   cursor: pointer;
+}

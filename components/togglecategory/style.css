@@ -1,0 +1,132 @@
+.hangerMenu {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.drawer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 10;
+  height: 100vh;
+  width: 350px;
+  background-color: #fff;
+  z-index: +9999999999999999999999999999999999999999999999999999999;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.drawer.open {
+  transform: translateX(0);
+  display: block;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+  margin-left: 40px;
+   font-size: 20px;
+}
+
+.category:hover{
+
+background-color: 	 #ccffcc;
+
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+/* .tooltip {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+ font-size: 18px;
+ margin-left:15px;
+ width: 300px;
+} */
+
+.tool:hover{
+
+
+background-color: 	 #ccffcc;
+
+}
+
+
+
+
+.category:hover .arrow {
+  transform: rotate(90deg);
+}
+
+.category:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+.tooltip {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  font-size: 18px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.tooltip:before {
+  content: "";
+  position: absolute;
+ 
+  top: 50%;
+  right: 100%;
+  left: -40%;
+  margin-top: -55px; /* Adjust the margin to position the triangle vertically */
+  border-width: 20px; /* Increase the size of the triangle */
+  border-style: dashed;
+  border-color: transparent transparent transparent #fff;
+ transform: scaleX(-1);
+ /* border-left-color: black; */
+
+
+}
+
+.tooltip.open {
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+ /* .above {
+  bottom: 0; 
+  top: auto;
+}  */
+
+
+
+
+
+

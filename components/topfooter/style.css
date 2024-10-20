@@ -1,0 +1,4 @@
+/* styles.css */
+.subcategory-item:hover {
+  text-decoration: underline;
+}
