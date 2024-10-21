@@ -5,13 +5,18 @@ const DB_URI = "mongodb+srv://gahavay527:oW3yhUaf0O4sO2zq@cluster0.ax2qu.mongodb
 
 //mongodb+srv://gahavay527:<db_password>@cluster0.ax2qu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
-const API = "http://localhost:3000/api"
+//const API = "http://localhost:3000/api"
+
+const API = "https://newswave-eta.vercel.app/api"
+
+
+//"https://newswave-eta.vercel.app/"
 
 NEXTAUTH_SECRET = "ASFHGYET4876TH4RUY39457TYH47IYTUH5Y5Y"
 
-const CLIENT_URL = "http://localhost:3000"
+//const CLIENT_URL = "http://localhost:3000"
 
-
+const CLIENT_URL = "https://newswave-eta.vercel.app"
 
 CLOUDINARY_CLOUD_NAME = "dxhzy8hjp"
 CLOUDINARY_API_KEY = "732193517963228"
