@@ -19,7 +19,7 @@ export default async function NewsSection({ newsItems }) {
                   {item.subcategoryId.name}
                 </span>
                 <img
-                  src={item.image}
+                  src={item?.image}
                   className="img-fluid mb-2"
                   alt={item.title}
                 />

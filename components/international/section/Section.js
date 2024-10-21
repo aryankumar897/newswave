@@ -57,7 +57,7 @@ export default async function BlogPost({ news, banner }) {
                 </div>
                 <div className="col-md-5">
                   <img
-                  src={post.image} 
+                  src={post?.image} 
                     className="img-fluid" alt="Blog Post"
                   />
                 </div>
@@ -90,7 +90,7 @@ export default async function BlogPost({ news, banner }) {
             </h5>
 
             <img
-              src={banner[3].imageUrl}
+              src={banner[3]?.imageUrl}
               className="img-fluid"
 
 

@@ -53,7 +53,7 @@ export default async function BlogPost({ news }) {
           </div>
           <div className="col-md-8">
             <img
-              src={post.image}
+              src={post?.image}
               className="img-fluid"
               alt="Blog Post"
 

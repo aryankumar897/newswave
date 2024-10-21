@@ -17,7 +17,7 @@ export default async function TopThree({ news }) {
            key={post._id} 
             className="col-md-4">
             <img
-             src={post.image}
+             src={post?.image}
               className="img-fluid"
               alt="Blog Post"
 

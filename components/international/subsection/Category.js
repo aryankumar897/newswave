@@ -49,7 +49,7 @@ export default async function Category(
 
         <div style={{ position: 'relative' }}>
           <img
-            src={banner[0].imageUrl}
+            src={banner[0]?.imageUrl}
             className="img-fluid"
             alt="Advertisement"
             style={{
