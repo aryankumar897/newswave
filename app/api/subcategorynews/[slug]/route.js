@@ -15,7 +15,7 @@ export async function GET(req, context) {
 
   try {
 
-    let subcatId = await Subcategory.findOne({ slug: context.params.slug })
+    let subcatId = await Subcategory.findOne({ slug: context?.params?.slug })
 
  if(!subcatId) {
   return  NextResponse.json({err: "No Subcategory found"})

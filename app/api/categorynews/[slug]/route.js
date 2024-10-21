@@ -17,7 +17,7 @@ export async function GET(req, context) {
 
 
 
-    let cateId = await Category.findOne({ slug: context.params.slug })
+    let cateId = await Category.findOne({ slug: context?.params?.slug })
 
 
 
