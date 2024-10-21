@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 import dbConnect from "@/utils/dbConnect";
 
-
+export const revalidate = 0;
 import User from "@/models/user";
 
 import { generateFromEmail } from "unique-username-generator";

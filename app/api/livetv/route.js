@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 import dbConnect from "@/utils/dbConnect";
 import Live from "@/models/live";
-
+export const revalidate = 0;
 export async function GET() {
 
     await dbConnect()

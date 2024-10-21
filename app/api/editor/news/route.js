@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 import dbConnect from "@/utils/dbConnect";
 
-
+export const revalidate = 0;
 import slugify from "slugify"
 
 import User from "@/models/user";

@@ -5,7 +5,7 @@ import News from "@/models/newspost"
 import Banner from "@/models/banner"
 
 import Category from "@/models/category"
-
+export const revalidate = 0;
 
 export async function GET(req, context) {
 

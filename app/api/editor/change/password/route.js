@@ -4,6 +4,10 @@ import bcrypt from "bcrypt"
 import User from "@/models/user";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/utils/authOptions";
+export const revalidate = 0;
+
+
+
 export async function PUT(req) {
   await dbConnect()
 

@@ -6,7 +6,7 @@ import dbConnect from "@/utils/dbConnect"
 
 import News from "@/models/newspost"
 
-
+export const revalidate = 0;
 
 
 import Banner from "@/models/banner"

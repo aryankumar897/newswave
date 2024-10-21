@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
  import dbConnect from "@/utils/dbConnect"
 
   import News from "@/models/newspost"
-
+export const revalidate = 0;
 
 
    export async function GET(req,context){

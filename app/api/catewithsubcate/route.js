@@ -11,7 +11,7 @@ import dbConnect from "@/utils/dbConnect"
 
 import News from "@/models/newspost"
 
-
+export const revalidate = 0;
 
 const getCategoriesWithSubcategories = async () => {
 

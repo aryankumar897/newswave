@@ -7,7 +7,7 @@ import Imagelib from "@/models/imagelib"
 
 import dbConnect from "@/utils/dbConnect";
 
-
+export const revalidate = 0;
 
 export async function GET(req) {
 

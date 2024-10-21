@@ -3,7 +3,7 @@ import { NextResponse } from "next/server"
 import dbConnect from "@/utils/dbConnect"
 
 import News from "@/models/newspost"
-
+export const revalidate = 0;
 
 import User from "@/models/user"
 import Subscription from "@/models/subscription"

@@ -12,7 +12,7 @@ import {NextResponse} from  "next/server"
   import Category from "@/models/category"
 
 
-
+export const revalidate = 0;
 
    export  async function GET(){
 

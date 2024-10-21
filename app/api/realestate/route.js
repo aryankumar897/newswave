@@ -4,7 +4,7 @@ import { NextResponse } from "next/server"
 import dbConnect from "@/utils/dbConnect"
 
 import News from "@/models/newspost"
-
+export const revalidate = 0;
 import Category from "@/models/category"
 
 export async function GET() {

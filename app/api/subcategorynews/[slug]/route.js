@@ -2,7 +2,7 @@
 
 import { NextResponse } from "next/server"
 
-
+export const revalidate = 0;
 import dbConnect from "@/utils/dbConnect"
 import News from "@/models/newspost"
 import Banner from "@/models/banner"
