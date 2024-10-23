@@ -1,0 +1,92 @@
+.account-container {
+    position: relative;
+}
+
+.account-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.account-drawer {
+    position: fixed;
+    top: 0;
+    right: -420px; /* Initially hide the drawer off-screen */
+    width: 420px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: +99999999999999999999999000;
+}
+
+.account-drawer.open {
+    right: 0; /* Slide in the drawer when open */
+}
+
+.drawer-content {
+    padding: 20px;
+}
+
+.close-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.arrow {
+    margin-top:8px;
+
+ 
+   transform: rotate(90deg);
+}
+
+
+.arrows {
+    margin-top:0px;
+
+ 
+  
+}
+.arrows:hover{
+    background-color: #c1e996;
+
+}
+
+
+.btn-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+
+
+.btn-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+.btnx{
+
+ margin-top: 60px;
+
+}
+
+.btn-item:hover{
+background-color: #fff;
+
+
+
+}

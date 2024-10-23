@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+   background-color: #f9f9f9;
+}
+
+.contact-us {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+ 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-us p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: green;
+}

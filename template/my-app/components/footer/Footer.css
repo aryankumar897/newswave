@@ -1,0 +1,60 @@
+styles/Footer.module.css
+.footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:30px;
+}
+
+
+
+
+
+
+
+
+.footer-content {
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+ 
+}
+.footer-nav ul {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin: 0 10px;
+}
+
+.footer-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.footer-nav ul li a:hover {
+    color: #000;
+      text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .footer-nav ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .footer-nav ul li {
+        margin: 10px 0; 
+    }
+}

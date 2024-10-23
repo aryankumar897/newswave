@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+
+  width: 100%;
+  background-color: #ffffff;
+  padding: 25px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+   justify-content: center !important    ;
+   z-index:+9999999999999999999999999999999999999999999999999
+}
+
+.navbar.visible {  
+  opacity: 1;
+}
+
+/* .navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+} */
+
+/* .navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+} */
