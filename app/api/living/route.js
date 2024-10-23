@@ -3,8 +3,8 @@ import dbConnect from "@/utils/dbConnect"
 import News from "@/models/newspost"
 import Category from "@/models/category"
 
-export const revalidate = 0;
 
+export const revalidate = 0;
 
 export async function GET() {
 

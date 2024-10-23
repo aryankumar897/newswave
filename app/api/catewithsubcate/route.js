@@ -7,11 +7,11 @@ import { NextResponse } from "next/server"
 
 import dbConnect from "@/utils/dbConnect"
 
-
+export const revalidate = 0;
 
 import News from "@/models/newspost"
 
-export const revalidate = 0;
+
 
 const getCategoriesWithSubcategories = async () => {
 

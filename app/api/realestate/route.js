@@ -4,9 +4,9 @@ import { NextResponse } from "next/server"
 import dbConnect from "@/utils/dbConnect"
 
 import News from "@/models/newspost"
-export const revalidate = 0;
-import Category from "@/models/category"
 
+import Category from "@/models/category"
+export const revalidate = 0;
 export async function GET() {
 
   await dbConnect()

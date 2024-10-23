@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
 import dbConnect from "@/utils/dbConnect";
 
-export const revalidate = 0;
+
 import nodemailer from "nodemailer";
 
 
-
+export const revalidate = 0;
 
 
 const transporter = nodemailer.createTransport({

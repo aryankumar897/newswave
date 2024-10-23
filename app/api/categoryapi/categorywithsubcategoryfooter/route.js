@@ -1,8 +1,8 @@
 
 import Category from "@/models/category"
 import SubCategory from "@/models/subcategory"
-export const revalidate = 0;
 
+export const revalidate = 0;
 import { NextResponse } from "next/server"
 
 import dbConnect from "@/utils/dbConnect"

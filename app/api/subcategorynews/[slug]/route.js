@@ -2,12 +2,11 @@
 
 import { NextResponse } from "next/server"
 
-export const revalidate = 0;
 import dbConnect from "@/utils/dbConnect"
 import News from "@/models/newspost"
 import Banner from "@/models/banner"
 import Subcategory from "@/models/subcategory"
-
+export const revalidate = 0;
 
 export async function GET(req, context) {
 

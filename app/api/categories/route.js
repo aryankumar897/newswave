@@ -4,8 +4,8 @@ import { NextResponse } from "next/server";
 import dbConnect
   from "@/utils/dbConnect";
 import Category from "@/models/category";
-export const revalidate=0;
 
+export const revalidate=0;
 
 export async function GET() {
   await dbConnect()
